@@ -10,7 +10,7 @@ def time():
     m = now.strftime('%m')
     day = now.strftime('%d')
     d = [m,day]
-    return d
+    return d 
 
 date = time()
 url = "https://www.nnh.to/{}/{}.html".format(date[0],date[1])
